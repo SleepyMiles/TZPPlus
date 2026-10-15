@@ -137,7 +137,7 @@ Every number is adjustable in `BepInEx/config/Miles.TZPPlus.cfg`, or in-game wit
 
 ## Download & bug reports
 
-- Get it from Thunderstore with your mod manager, or download the zip from [GitHub Releases](https://github.com/SleepyMiles/TZPPlus/releases).
+- Get it from [Thunderstore](https://thunderstore.io/c/lethal-company/p/SleepyMiles/TZPPlus/) with your mod manager, or download the zip from [GitHub Releases](https://github.com/SleepyMiles/TZPPlus/releases).
 - Found a bug or have an idea? [Open an issue](https://github.com/SleepyMiles/TZPPlus/issues/new/choose) and attach your `BepInEx/LogOutput.log`.
 
 ---
