@@ -1,5 +1,7 @@
 # TZPPlus
 
+![TZPPlus in game](https://raw.githubusercontent.com/SleepyMiles/TZPPlus/main/images/lethal_dose_screenshot.png)
+
 Makes the **TZP Inhalant** worth carrying. Inhale it to `heal`, see exactly how much `gas` is left, and build up `damage reduction` that also protects you from fall damage. Push it too far and you may take a `Lethal Dose`.
 
 Fully configurable. Gameplay settings are synced from the host, so everyone plays with the same numbers.
