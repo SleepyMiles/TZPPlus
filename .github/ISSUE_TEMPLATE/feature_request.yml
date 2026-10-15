@@ -1,0 +1,11 @@
+name: Idea / suggestion
+description: Suggest a change or a new feature for TZPPlus
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What should change, and why would it make the game better?
+    validations:
+      required: true
