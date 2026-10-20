@@ -23,8 +23,17 @@ Fully configurable. Gameplay settings are synced from the host, so everyone play
 <summary>🔋 Gas meter</summary>
 
 - The TZP's remaining gas shows in the `battery meter` while you hold it.
-- A full tank lasts `38 seconds` of inhaling.
+- A full tank lasts `38 seconds` of inhaling (configurable, see 🧪 TZP item).
 - The TZP is never treated as a battery item, so it can't be "charged" at the ship's charger.
+
+</details>
+
+<details>
+<summary>🧪 TZP item</summary>
+
+- Set how long one TZP lasts: `Seconds of gas per TZP` (vanilla `38 seconds`). The battery meter and the seconds left follow it.
+- Set the TZP-Inhalant's `store price` (vanilla `$120`). Store sales still apply.
+- Both are synced from the host, so everyone has the same tank and pays the same price.
 
 </details>
 
@@ -117,21 +126,36 @@ Every number is adjustable in `BepInEx/config/Miles.TZPPlus.cfg`, or in-game wit
 | 4. Lethal Dose | on/off (off by default), seconds of inhaling, withdrawal seconds, withdrawal strength %, withdrawal stamina drain %, withdrawal countdown while inhaling | ✅ from the host |
 | 5. Frailty injuries | on/off (off by default), leg / arm injury countdown while inhaling | ✅ from the host |
 | 6. EladsHUD compatibility | health / stamina bar gold, red stamina bar during withdrawal | ❌ client side only |
+| 7. TZP item | seconds of gas per TZP, store price | ✅ from the host |
 
 ---
 
 ## Compatibility
 
 - **Everyone in the lobby needs this mod.**
-- **Elad's HUD**
+- **Elad's HUD / [EladsHUD+](https://thunderstore.io/c/lethal-company/p/SleepyMiles/EladsHUDPlus/)**
   - The gas meter also shows the `seconds of gas left`.
   - The health and stamina bars fade to `gold` while the damage reduction is active (stronger buff = stronger color), and the health bar stays visible while buffed. Low stamina still turns the bar red.
   - The stamina bar turns `red` during Withdrawal.
   - With the **SleepyMiles fork** of Elad's HUD, the icons go in its row under the health bar, with tooltips when you point at them.
-- **[Frailty](https://thunderstore.io/c/lethal-company/p/IntegrityChaos/Frailty/)**: optional, for faster-healing leg / arm injuries. The icons sit right after Frailty's own icons.
+- **[Frailty](https://thunderstore.io/c/lethal-company/p/IntegrityChaos/Frailty/) / [FrailtyPlus](https://thunderstore.io/c/lethal-company/p/SleepyMiles/FrailtyPlus/)**: optional, for faster-healing leg / arm injuries. The icons sit right after Frailty's own icons. FrailtyPlus' injuries also come from the damage after TZPPlus' reduction, so the buff lowers them too.
+- **[FrailtyMedical](https://thunderstore.io/c/lethal-company/p/SleepyMiles/FrailtyMedical/)**: its Antibiotics clear Withdrawal; its icons sit on the same row.
+- **[Drinkable](https://thunderstore.io/c/lethal-company/p/SleepyMiles/Drinkable/)**: the pills clear the vanilla TZP effects (not Lethal Dose / Withdrawal); its icons sit on the same row.
 - **LethalConfig**: change every setting in-game.
 - **AdvancedCompany**: stacks with the `Protective Skin` perk (multiplicatively, e.g. 10% + 20% = 28%).
 - ⚠️ **Do not use together with** EnhancedTZP, TZPReworkedHealing or TZPHealingCustom. They also change the TZP and would heal on top of this mod.
+
+## Play them together
+
+These mods are made by **SleepyMiles** to work as one set. They share one row of buff / debuff icons (or EladsHUD+'s status row) and one **CONSUMABLES** store section, and they know about each other's effects. Each one also works on its own (FrailtyMedical needs FrailtyPlus).
+
+| Mod | What it adds |
+|---|---|
+| **TZPPlus** (this mod) | The TZP heals you, shows its gas, builds up damage reduction (fall damage too). Too much gives a Lethal Dose. |
+| [FrailtyPlus](https://thunderstore.io/c/lethal-company/p/SleepyMiles/FrailtyPlus/) | Injuries: broken / fractured legs and arms, bleeding, concussions, Paralyze. A rebuilt Frailty. |
+| [FrailtyMedical](https://thunderstore.io/c/lethal-company/p/SleepyMiles/FrailtyMedical/) | *Beta.* Bandage, First Aid Kit, Morphine (revive a teammate), Epinephrine, Painkillers and Antibiotics to treat them. |
+| [Drinkable](https://thunderstore.io/c/lethal-company/p/SleepyMiles/Drinkable/) | Drink the Red soda and the pills, 9 new sodas with their own buffs, and the Soda Machine. |
+| [EladsHUD+](https://thunderstore.io/c/lethal-company/p/SleepyMiles/EladsHUDPlus/) | Elad's HUD for V81, with a status row that shows every buff, debuff and injury from all of these with the `time left`. |
 
 ---
 

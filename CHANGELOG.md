@@ -1,5 +1,24 @@
 # Changelog
 
+## 1.2.0
+
+<details>
+<summary>✨ New</summary>
+
+- **TZP gas:** set how long one TZP lasts with `Seconds of gas per TZP` (vanilla `38`). The battery meter and the seconds left follow it.
+- **TZP price:** set the TZP-Inhalant's `Store price` (vanilla `$120`).
+- Both are in the new section `7. TZP item`, synced from the host.
+
+</details>
+
+<details>
+<summary>🔧 Changes</summary>
+
+- `Seconds of inhaling for Lethal Dose` can now go above 38 (for longer tanks).
+- README: works with FrailtyPlus, FrailtyMedical, Drinkable and EladsHUD+.
+
+</details>
+
 ## 1.1.0
 
 <details>
