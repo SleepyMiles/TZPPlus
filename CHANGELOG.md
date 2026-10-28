@@ -1,5 +1,26 @@
 # Changelog
 
+## 1.3.0
+
+<details>
+<summary>✨ New</summary>
+
+- **TZP calms you down:** while you inhale, your paranoia (the game's insanity) drops `2 per second` (`TZP calm per second`).
+- **Withdrawal makes you paranoid:** alone, your paranoia rises `1.5x faster` (`Withdrawal paranoia multiplier`).
+- **FrailtyMedical's Sedatives** make Withdrawal wear off `2x faster` (`Sedatives Withdrawal speed`).
+- All three are in the new section `8. Paranoia`, synced from the host.
+
+</details>
+
+<details>
+<summary>🔧 Changes</summary>
+
+- New, more polished icons for every buff / debuff.
+- `Overdose` is now called **Warped**.
+- Clearer descriptions for every buff / debuff.
+
+</details>
+
 ## 1.2.0
 
 <details>
