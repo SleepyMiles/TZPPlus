@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.3.1
+
+<details>
+<summary>🐛 Fixes</summary>
+
+- Without EladsHUD+, the icon row drifted a little further off with every FrailtyPlus injury icon in front of it. It now lines up along the same tilted line as FrailtyPlus' icons.
+- On some setups (where BepInEx' own object is removed when the game loads a scene) EladsHUD+ and FrailtyMedical weren't found.
+
+</details>
+
 ## 1.3.0
 
 <details>
