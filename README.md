@@ -135,14 +135,10 @@ Every number is adjustable in `BepInEx/config/Miles.TZPPlus.cfg`, or in-game wit
 
 | Section | What | Synced? |
 |---|---|---|
-| 1. Healing | on/off, HP per second | ✅ from the host |
-| 2. Damage Reduction | on/off, include fall damage, max damage reduction %, reduction gained per second %, minimum puff seconds, grace seconds, decay % per second | ✅ from the host |
-| 3. Display UI | gas meter, effect display (icons / text / off), show TZPPlus effects, show vanilla TZP effects (off by default), buff icon numbers in buff color, icon row position / size, text position / size, stamina meter gold / red, color | ❌ client side only |
-| 4. Lethal Dose | on/off (off by default), seconds of inhaling, withdrawal seconds, withdrawal strength %, withdrawal stamina drain %, withdrawal countdown while inhaling | ✅ from the host |
-| 5. Frailty injuries | on/off (off by default), leg / arm injury countdown while inhaling | ✅ from the host |
-| 6. EladsHUD compatibility | health / stamina bar gold, red stamina bar during withdrawal | ❌ client side only |
-| 7. TZP item | seconds of gas per TZP, store price | ✅ from the host |
-| 8. Paranoia | withdrawal paranoia multiplier, TZP calm per second, Sedatives Withdrawal speed | ✅ from the host |
+| General | healing on/off and HP per second; damage reduction on/off, include fall damage, max %, gained per second %, minimum puff seconds, grace seconds, decay % per second; seconds of gas per TZP; store price; TZP calm per second | ✅ from the host |
+| Lethal Dose | on/off (off by default), seconds of inhaling, withdrawal seconds, strength %, stamina drain %, countdown while inhaling; withdrawal paranoia multiplier, Sedatives Withdrawal speed | ✅ from the host |
+| Compatible | FrailtyPlus: on/off (off by default), leg / arm injury countdown while inhaling (✅ from the host). EladsHUD+: health / stamina bar gold, red stamina bar during withdrawal (❌ client side only) | both |
+| Display UI | gas meter, effect display (icons / text / off), show TZPPlus effects, show vanilla TZP effects (off by default), buff icon numbers in buff color, icon row position / size, text position / size, stamina meter gold / red, color | ❌ client side only |
 
 ---
 

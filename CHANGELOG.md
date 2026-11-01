@@ -7,7 +7,10 @@
 
 - Without EladsHUD+, the icon row drifted a little further off with every FrailtyPlus injury icon in front of it. It now lines up along the same tilted line as FrailtyPlus' icons.
 - On some setups (where BepInEx' own object is removed when the game loads a scene) EladsHUD+ and FrailtyMedical weren't found.
+- **Cleaner settings:** no numbers in front of the sections any more, and only four of them, in this order: `General` (healing, damage reduction, gas, store price, TZP calm), `Lethal Dose` (with the Withdrawal paranoia settings), `Compatible` (FrailtyPlus and EladsHUD+), `Display UI`. Your settings are moved over once.
 - The icon frame moves like FrailtyPlus' icons (its dashes change a few times a second), and debuff pictures slowly pulse red, like FrailtyPlus' injuries.
+
+<img src="https://raw.githubusercontent.com/SleepyMiles/TZPPlus/main/images/changes_1_3_1_frames.gif" width="720">
 
 </details>
 
@@ -27,6 +30,9 @@
 <summary>🔧 Changes</summary>
 
 - New, more polished icons for every buff / debuff.
+
+<img src="https://raw.githubusercontent.com/SleepyMiles/TZPPlus/main/images/changes_1_3_0_icons.png" width="640">
+
 - `Overdose` is now called **Warped**.
 - Clearer descriptions for every buff / debuff.
 
